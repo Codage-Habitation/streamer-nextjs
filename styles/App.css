@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../src/assets/Helvetica\ Neu\ Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Neue Haas Grostik Dispkay';
+    src: url('../src/assets/NHaasGroteskTXPro-55Rg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Acta Display';
+    src: url('../src/assets/Acta\ Display\ Book.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+.App {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    margin-bottom: 48rem;
+}
+
+/*-----------------------------------------
+-------------------Header------------------
+-----------------------------------------*/
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-family: 'Neue Haas Grostik Dispkay';
+    transition: all 1s ease-out;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+}
+
+.nav .tagline {
+    color: rgb(48, 48, 48);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-left: 16.8rem;
+    letter-spacing: -0.4px;
+}
+
+.nav .nav_menu .fas {
+    margin-left: 4px;
+    font-size: 0.72rem;
+}
+
+.nav .nav_menu .menu_title {
+    margin-left: 1rem;
+    font-size: 0.76rem;
+}
+
+.heading {
+    margin-bottom: 1.2rem;
+    position: absolute;
+}
+
+.video_section {
+    position: relative;
+}
+
+/*-----------------------------------------
+-------------------Body--------------------
+-----------------------------------------*/
+
+.body_section {
+    background-color: #fff;
+}
+
+.centered_element {
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+    margin-bottom: 10rem;
+    padding-top: 2.5rem;
+}
+
+.centered_element:before, .centered_element:after {
+    content: " ";
+    flex-basis: 100%;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.body_detail_text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 3.4rem;
+    font-family: 'Acta Display';
+    text-align: center;
+    line-height: 1.0416666667;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.sticky {
+    height: 100%;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 50% auto;
+    margin-bottom: 24rem;
+}
+
+.big_heading {
+    font-size: 18rem;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 5.6rem;
+    margin-left: 16rem;
+    font-family: 'Helvetica Neue';
+    color: #000;
+}
+
+.temp_text {
+    margin-top: 48rem;
+    color: #000;
+    margin-bottom: 24rem;
+}
+
+.scroll_img {
+    margin-left: -45.4rem;
+    width: 94.4vw;
+    height: 120vh;
+}
+
+.sticky_scroll_paragraph {
+    margin-top: 24rem;
+    margin-bottom: 24rem;
+    font-size: 2rem;
+    line-height: 1;
+    padding-left: 1rem;
+    font-family: 'Acta Display';
+}
+
+.empty_target {
+    margin-bottom: 48rem;
+}
+
+.centered_element2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -2rem;
+    background-color: transparent;
+    padding-bottom: 5em;
+}
+
+.body_detail_text2 {
+    float: left;
+    width: 72%;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.5em  ;
+    letter-spacing: 0.02em;
+    margin-bottom: 4rem;
+    font-family: 'Acta Display';
+    font-weight: 600;
+    color: #000;
+}
+.find_out_link{
+    position: relative;
+}
+.find_out_link a{
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    word-spacing: -2px;
+    font-family: 'Neue Haas Grostik Dispkay';
+    color: #000;
+    padding-bottom: 1em;
+    text-decoration: none;
+}
+.find_out_link::after{
+    content: '';
+    border-bottom: 0.1em solid #6C00C1;
+    width: 6.5em;
+    position: absolute;
+    left: 0;
+    top: 2em;
+}
+.section-img{
+    width: 80%;
+    margin: 3em auto;
+}
+/*-----------------------------------------
+-------------------Body--------------------
+-----------------------------------------*/
+
+.footer {
+    color: white;
+    padding-top: 0.8rem;
+}
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 12.8rem;
+    font-size: 0.92rem;
+}
+
+.footer .container .footer_links {
+    padding-right: 12rem;
+    line-height: 1.05;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #F6F6F4;
+    font-family: 'Neue Haas Grostik Dispkay';
+}
+
+.footer .container .footer_links:nth-of-type(3) {
+    padding-right: 10rem;
+}
+
+.footer .container .footer_links:last-of-type {
+    padding-right: 14rem;
+}
+
+.footer .container .footer_links .footer_link {
+    cursor: pointer;
+}
