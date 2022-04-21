@@ -1,0 +1,30 @@
+.headersection{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+.topnav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3em;
+}
+.logopart{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.menupart{
+    width: 75%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.logopart a{
+    text-decoration: none;
+}
+.logopart h1{
+    color: #fff;
+}
