@@ -2,3 +2,6 @@
 <!--
 
 # Next JS STREAMER Website Landing Page
+
+
+![Preview](https://github.com/Codage-Habitation/streamer-nextjs/blob/main/github-images/STREAMER-Nextjs.gif?raw=true)
